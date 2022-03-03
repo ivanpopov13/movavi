@@ -1,0 +1,87 @@
+.nav-item { 
+    margin-left: 100px;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+header .nav-item a{
+    background-color: white;
+    transition: all 0.5s;
+}
+
+header .nav-item a:hover {
+    background-color: rgb(238, 238, 238);
+}
+
+
+.s-card {
+    margin-top: 100px;
+}
+
+.link-more {
+    color:gray;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.post-category {
+    font-size: 14px;
+    color: gray;
+}
+
+.grid-posts {
+    margin-top: 100px;
+}
+
+.grid-posts .card {
+    border: 0;
+    margin-bottom: 100px;
+}
+
+.card-img-top {
+    height: 350px;
+    border-radius: 0;
+    object-fit: cover;
+}
+
+.main_img {
+    max-width: 100%;
+    max-height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+@media (max-width: 992px) {
+    .main_img {
+        max-width: 100%;
+        max-height: 200px;
+        width: 100%;
+        object-fit: cover;
+        margin-bottom: 50px;
+    }
+
+    .card-img-top {
+        height: 300px;
+        border-radius: 0;
+        object-fit: cover;
+    }
+}
+@media (max-width:768px) {
+    .card-img-top {
+        height: 250px;
+        border-radius: 0;
+        object-fit: cover;
+    }
+
+    .logopic {
+        max-height: 50px;
+    }
+}
+
+@media (max-width:500px) {
+
+    .logopic {
+        max-height: 50px;
+    }
+}
